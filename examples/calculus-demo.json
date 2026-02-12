@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "metadata": {
+    "title": "Calculus Demo",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  "settings": { "angleMode": "rad" },
+  "blocks": [
+    {
+      "id": "cas1",
+      "type": "cas",
+      "title": "CAS",
+      "currentInput": "",
+      "history": [
+        { "input": "derivative(x^3+2*x, x)", "output": "3*x^2+2" },
+        { "input": "integral(2*x, x)", "output": "x^2" }
+      ]
+    },
+    {
+      "id": "table1",
+      "type": "table",
+      "title": "Table",
+      "expression": "x^2+1",
+      "xStart": -3,
+      "xEnd": 3,
+      "step": 1,
+      "rows": [
+        { "x": -3, "y": 10 },
+        { "x": -2, "y": 5 },
+        { "x": -1, "y": 2 },
+        { "x": 0, "y": 1 },
+        { "x": 1, "y": 2 },
+        { "x": 2, "y": 5 },
+        { "x": 3, "y": 10 }
+      ]
+    },
+    {
+      "id": "notes1",
+      "type": "notes",
+      "title": "Notes",
+      "markdown": "# Calculus Notes\n- derivative and integral examples"
+    }
+  ]
+}

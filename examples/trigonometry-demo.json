@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "metadata": {
+    "title": "Trigonometry Demo",
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "updatedAt": "2026-01-01T00:00:00.000Z"
+  },
+  "settings": { "angleMode": "rad" },
+  "blocks": [
+    {
+      "id": "calc1",
+      "type": "calculator",
+      "title": "Calculator",
+      "currentInput": "",
+      "history": [
+        { "input": "a=pi/6", "output": "0.5235987755983" },
+        { "input": "sin(a)", "output": "0.5" }
+      ]
+    },
+    {
+      "id": "graph1",
+      "type": "graph",
+      "title": "Graph",
+      "functions": [
+        { "expression": "sin(x)", "color": "#1f77b4" },
+        { "expression": "cos(x)", "color": "#d62728" },
+        { "expression": "tan(x)", "color": "#2ca02c" }
+      ],
+      "range": { "xMin": -6.28, "xMax": 6.28, "yMin": -2, "yMax": 2 }
+    }
+  ]
+}
