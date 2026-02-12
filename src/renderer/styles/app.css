@@ -1,0 +1,16 @@
+body { margin: 0; font-family: Inter, Arial, sans-serif; }
+.layout { display: grid; grid-template-columns: 280px 1fr; height: 100vh; }
+.sidebar { border-right: 1px solid #ddd; padding: 12px; overflow-y: auto; }
+.content { padding: 16px; overflow-y: auto; }
+.toolbar { display: flex; gap: 8px; }
+.toolbar.vertical { flex-direction: column; }
+.sidebar ul { list-style: none; padding: 0; }
+.sidebar li button { width: 100%; margin: 4px 0; text-align: left; }
+.selected { background: #cce5ff; }
+.line-input { width: 80%; padding: 8px; margin-right: 8px; }
+.history { margin-top: 12px; display: flex; flex-direction: column; gap: 8px; }
+.error { color: #b00020; }
+.notes { width: 100%; min-height: 380px; }
+
+.grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 8px; }
+.grid4 { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; margin-bottom: 8px; }
